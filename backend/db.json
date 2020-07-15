@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic 500 cores",
+      "price": "50000"
+    },
+    {
+      "id": 2,
+      "name": "Copo do hulk",
+      "price": "12000"
+    },
+    {
+      "id": 3,
+      "name": "Stitch de pelucia",
+      "price": "300"
+    },
+    {
+      "id": 4,
+      "name": "Pica Pau Biruta",
+      "price": "2000"
+    },
+    {
+      "name": "Produto form",
+      "price": "1200",
+      "id": 6
+    },
+    {
+      "name": "casquinha",
+      "price": "2",
+      "id": 7
+    },
+    {
+      "name": "intellij",
+      "price": "2",
+      "id": 8
+    },
+    {
+      "name": "roupa",
+      "price": 2000,
+      "id": 9
+    },
+    {
+      "name": "Chocolate",
+      "price": 10,
+      "id": 10
+    },
+    {
+      "name": "Victória",
+      "price": 0.1,
+      "id": 11
+    },
+    {
+      "name": "Vitória",
+      "price": 100000000000000000,
+      "id": 12
+    },
+    {
+      "name": "Cabeça de Macaco",
+      "price": 5000,
+      "id": 13
+    }
+  ]
+}
