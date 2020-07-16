@@ -19,6 +19,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { RedDirective } from './directives/red.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductService } from './components/product/product.service';
+import { HeaderService } from './components/template/header/header.service';
 import { MatSnackBarModule } from '@angular/material/snack-bar' ;
 import { HttpClientModule } from  '@angular/common/http';
 
@@ -33,6 +34,8 @@ import { MatSortModule } from '@angular/material/sort';
 
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 /**
  * @author atnunes
@@ -54,7 +57,9 @@ registerLocaleData(localePt);
     RedDirective,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductRead2Component
+    ProductRead2Component,
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
@@ -78,8 +83,9 @@ registerLocaleData(localePt);
   providers: [{
     provide: LOCALE_ID,
     useValue: 'pt-br'},
-    ProductService
+    ProductService,
+    HeaderService
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
